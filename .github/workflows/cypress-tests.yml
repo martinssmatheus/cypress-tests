@@ -1,13 +1,13 @@
 name: Testes Cypress
 
-on:
-  push:
-    branch:
-      - main
-    paths:
-      - '/**.js'
-      - '/**.json'
-      - '/**.yml'
+on: push
+#  push:
+#    branch:
+#      - main
+#    paths:
+#      - '/**.js'
+#      - '/**.json'
+#      - '/**.yml'
   
   jobs:
     cypress-teste:
