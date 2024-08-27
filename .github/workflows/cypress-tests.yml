@@ -23,13 +23,13 @@ on:
 
         - name: Install Dependencies
           run: npm install
-          working-directory: ./cypress-testes
+          working-directory: ./cypress-tests
 
         - name: Install Cypress
           run: npm install cypress
 
         - name: Run Cypress tests
           run: npm run cypress:headless
-          working-directory: ./cypress-testes
+          working-directory: ./cypress-tests
 
   
