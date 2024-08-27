@@ -1,16 +1,16 @@
 name: Testes Cypress
 
-on: push
-#  push:
-#    branch:
-#      - main
-#    paths:
-#      - '/**.js'
-#      - '/**.json'
-#      - '/**.yml'
+on:
+  push:
+    branch:
+      - main
+    paths:
+      - '/**.js'
+      - '/**.json'
+      - '/**.yml'
   
   jobs:
-    cypress-teste:
+    cypress-tests:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout code
