@@ -1,4 +1,4 @@
-name: Cypress Testes - inicio
+name: Cypress Tests - inicio
 
 on:
   push:
