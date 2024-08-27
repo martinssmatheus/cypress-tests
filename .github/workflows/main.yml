@@ -2,7 +2,7 @@ name: Cypress Tests
 
 on:
   push:
-    branch:
+    branches:
       - main
     paths:
       - '/**.js'
