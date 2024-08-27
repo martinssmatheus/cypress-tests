@@ -26,6 +26,10 @@ jobs:
         run: npm install
         working-directory: ./in-class-project
 
+      - name: install cypress
+        run: npm run cypress:install
+        working-directory: ./in-class-project
+
       - name: Run Cypress tests
         run: npm run cypress:headless
         working-directory: ./in-class-project
